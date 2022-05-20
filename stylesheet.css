@@ -1,0 +1,84 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-{
+    width: 100%;
+    display: absolute;
+}
+
+a{
+    display: flex;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.search-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
+}
+
+.input-text{
+    border-radius: 20px;
+    width: 600px;
+    border: 0.2px solid grey;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.input-text:hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    transform: none;
+}
+
+.input-btn{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    height: min-content;
+    margin-top: 40px;
+    background-color: #F8F9FA;
+
+}
+
+.lucky-btn{
+    width: 40%;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: #F8F9FA;
+}
+
+.input-btn:hover{
+    border: 0.2px solid grey;
+    transform: none;
+}
+
+.lucky-btn:hover{
+    border: 0.2px solid grey;
+    transform: none;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 120px;
+    margin-right: 120px;
+}
